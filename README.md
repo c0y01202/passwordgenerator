@@ -20,3 +20,4 @@ I also used Google to access the following tutorials:
 ## H2 Visual References and External Resource
 ![Image of index.html] (passwordgenerator_index.png)
 [link to website] (https://c0y01202.github.io/passwordgenerator/)
+![passwordgenerator_index](https://user-images.githubusercontent.com/97765679/154811189-e587233d-6198-4cff-81be-d8c85649aef6.png)
