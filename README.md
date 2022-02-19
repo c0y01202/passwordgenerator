@@ -1,6 +1,6 @@
 # passwordgenerator
 
-<# H1> Random Password Generator
+# H1 Random Password Generator
 
 This assignment required use of HTML and Javascript. The purpose of the assignment was to create a password generator that would include prompts to ask the user to select the following variables:
 
@@ -17,6 +17,6 @@ I also used Google to access the following tutorials:
 1. https://www.youtube.com/watch?v=duNmhKgtcsI
 2. https://www.youtube.com/watch?v=iKo9pDKKHnc
 
-<## H2> Visual References and External Resource
+## H2 Visual References and External Resource
 ![Image of index.html] (passwordgenerator_index.png)
 [link to website] (https://c0y01202.github.io/passwordgenerator/)
