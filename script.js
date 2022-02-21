@@ -47,10 +47,10 @@ function generatePassword() {
 
   } else {
       // Continues once user input is validated
+      confirmLowercase = confirm("Will this password contain lower case characters?");
+      confirmUppercase = confirm("Will this password contain upper case characters?");
       confirmNumber = confirm("Will this password contain numbers?");
-      confirmCharacter = confirm("Will this password contain special characters?");
-      confirmUppercase = confirm("Will this password contain Uppercase letters?");
-      confirmLowercase = confirm("Will this password contain Lowercase letters?");
+      confirmSpecialCharacters = confirm("Will this password contain special characters?");
   };
   if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
     choices = alert("You must choose a criteria!");
@@ -63,7 +63,7 @@ function generatePassword() {
   var possibleCombo = [];
   var finalPassword = "";
 
-
+//this script was taken from a tutorial 
   if (passwordOptions.askNumbers) {
     for (var i of numbers)
       possibleCombo.push(i);
@@ -90,7 +90,7 @@ function writePassword() {
 
 }
 
-  //added new lines based on office hours
+  //added new lines based on office hours this may be redundant to lines 66-82
   if (options.hasNumbers) {
     possibleCharacters = 
     possibleCharacters.concat(numbers);
