@@ -5,8 +5,11 @@
 This assignment required use of HTML and Javascript. The purpose of the assignment was to create a password generator that would include prompts to ask the user to select the following variables:
 
 1) The number of characters in the password.
+
+User then selects whether they need the following types of characters:
+1) Lower case characters.
 2) Upper case characters.
-3) Lower case characters.
+3) Numbers.
 4) Special characters.
 
 The user is prompted to select whether they would want any of the above with a prompt that asks them to "confirm" or "skip" the selection criteria.
